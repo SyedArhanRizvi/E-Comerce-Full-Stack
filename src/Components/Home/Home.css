@@ -1,0 +1,368 @@
+.s1{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.landing{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://aztecasoccer.com/cdn/shop/files/nike-kylian-mbappe-mercurial-unfair-speed.jpg?v=1725687249&width=2560");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing .title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background: #0000003e;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.landing .title .div {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.landing .title .div h1{
+    font-size: 3em;
+}
+.landing .title .div p{
+    font-size: 2em;
+}
+.landing .title .btnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.landing .title .btnDiv button{
+    padding: 8px 25px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.s1 .videoSection{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    /* align-items: center/; */
+}
+.s1 .videoSection .v1{
+    width: 35%;
+    overflow: hidden;
+    height: 40em;
+    /* border: 1px solid black; */
+}
+.s1 .videoSection .v1 img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    
+    cursor: pointer;
+}
+.s1 .videoSection .v1 img:hover{
+    height: 105%;
+    width: 105%;
+}
+.s1 .videoSection .v2{
+    width: 25%;
+    height: 40em;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s1 .videoSection .v2 .v2I1{
+    width: 100%;
+    height: 48%;
+    overflow: hidden;
+    /* background: green; */
+}
+.s1 .videoSection .v2 .v2I1 img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.s1 .videoSection .v2 .v2I1 img:hover{
+    height: 105%;
+    width: 105%;
+}
+.s1 .videoSection .v3{
+    width: 20%;
+    height: 40em;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+.s1 .videoSection .v3 img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.s1 .videoSection .v3 img:hover{
+    height: 105%;
+    width: 105%;
+}
+.s1 .shoeSection {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+.s1 .shoeSection .shoeheading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+    gap: 8px;
+}
+.s1 .shoeSection .allShoe{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s1 .shoeSection .allShoe .ShoeCard{
+    width: 20%;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* gap: 10px; */
+    border: 1px solid black;
+}
+.s1 .shoeSection .allShoe .ShoeCard .img{
+    width: 100%;
+    height: 60%;
+    /* background: rebeccapurple; */
+}
+.s1 .shoeSection .allShoe .ShoeCard .img img{
+    width: 100%;
+    height: 100%;
+    background: rebeccapurple;
+}
+
+.landing2{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://aztecasoccer.com/cdn/shop/files/nike-mercurial-lite-shin-guards-web-banner.jpg?v=1725438799&width=2560");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: 130px; */
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing2 .title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background: #0000003e;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.landing2 .title .div {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.landing2 .title .div h1{
+    font-size: 3em;
+}
+.landing2 .title .div p{
+    font-size: 2em;
+}
+.landing2 .title .btnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.landing2 .title .btnDiv button{
+    padding: 8px 25px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+ /* T-Shirts Section */
+ .s1 .shirtSection {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+.s1 .shirtSection .ShirtHeading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+    gap: 8px;
+}
+.s1 .shirtSection .allTShirts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s1 .shirtSection .allTShirts .ShirtsCard{
+    width: 20%;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* gap: 10px; */
+    border: 1px solid black;
+}
+.s1 .shirtSection .allTShirts .ShirtsCard .img{
+    width: 100%;
+    height: 60%;
+    /* background: rebeccapurple; */
+}
+.s1 .shirtSection .allTShirts .ShirtsCard .img img{
+    width: 100%;
+    height: 100%;
+    background: rebeccapurple;
+}
+
+/* Landing Page 3*/
+.landing3{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://aztecasoccer.com/cdn/shop/files/nike-tiempo-legend-emerald-pack.jpg?v=1713209616&width=2560");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: 130px; */
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing3 .title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background: #0000003e;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.landing3 .title .div {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.landing3 .title .div h1{
+    font-size: 3em;
+}
+.landing3 .title .div p{
+    font-size: 2em;
+}
+.landing3 .title .btnDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.landing3 .title .btnDiv button{
+    padding: 8px 25px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* Jacket Section */
+.s1 .jacketSection {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+.s1 .jacketSection .jacketHeading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+    gap: 8px;
+}
+.s1 .jacketSection .allJackets{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s1 .jacketSection .allJackets .jacketCard{
+    width: 20%;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* gap: 10px; */
+    border: 1px solid black;
+}
+.s1 .jacketSection .allJackets .jacketCard .img{
+    width: 100%;
+    height: 60%;
+    /* background: rebeccapurple; */
+}
+.s1 .jacketSection .allJackets .jacketCard .img img{
+    width: 100%;
+    height: 100%;
+    background: rebeccapurple;
+}

@@ -1,0 +1,76 @@
+footer {
+    width: 100%;
+    padding: 30px;
+    background: #000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .fD1{
+    width: 100%;
+    display: flex;
+}
+footer .fD1 div{
+    width: 24%;
+}
+footer .fD1 div a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+footer .fD1 div .followLink {
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    background: rgb(118, 8, 208);
+    border-radius: 25px;
+}
+footer .fD1 div .socialMedia{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+footer .fD1 div div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .fD1 div div input{
+    height: 3em;
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+    width: 20em;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+footer .fD1 div div textarea{
+    height: 10em;
+    width: 20em;
+    border: none;
+    padding: 8px;
+}
+footer .fD1 div div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .fD1 div div a p{
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    background: rgb(48, 8, 208);
+    border-radius: 25px
+}
+footer .fD2{
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+}
+footer .fD2 .lDiv2{
+    padding-top: 10px;
+}
